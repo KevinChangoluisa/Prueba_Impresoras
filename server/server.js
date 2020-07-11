@@ -16,6 +16,7 @@ mongoose.connect(process.env.URLDB, { useCreateIndex: true, useNewUrlParser: tru
     console.log('base de datos online');
 });
 
+//qwe
 app.listen(process.env.PORT, () => {
     console.log("Escuchando el puerto ", process.env.PORT);
 });
